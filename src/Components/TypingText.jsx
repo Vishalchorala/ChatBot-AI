@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import "../app.css";
 
 function TypingText({ message, onDone = () => { } }) {
   const [displayedText, setDisplayedText] = useState("");
