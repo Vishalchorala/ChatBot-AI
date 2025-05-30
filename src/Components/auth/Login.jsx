@@ -73,6 +73,7 @@ const LogIn = () => {
             console.log("Google sign-in user:", result.user);
             toast.success("Successfully signed in with Google.");
             setTimeout(() => {
+                reset();
                 navigate(paths.chatBot);
             }, 1000);
         } catch (error) {
