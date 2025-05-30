@@ -11,8 +11,8 @@ import Profile from "./pages/Profile";
 import Home from "./pages/Home";
 import ChatBot from "./pages/ChatBot";
 import ForgotPassword from "./Components/auth/ForgotPassword";
-import "../app.css";
-  
+import "../src/app.css"
+
 function App() {
   return (
     <>
