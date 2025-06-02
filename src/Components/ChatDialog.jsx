@@ -420,7 +420,7 @@ const ChatDialog = () => {
               )}
 
               {error && (
-                <p className="text-red-600 italic mt-2">Error: {error}</p>
+                <p>{error.message || "An error occurred."}</p>
               )}
             </>
           )}
@@ -441,7 +441,7 @@ const ChatDialog = () => {
 
             <button
               type="submit"
-              disabled={loading || !isTypingDone}
+              disabled={loading || !isTypingDone || input.trim().length === 0}
               className="absolute bottom-[13.5px] sm:bottom-3 right-2 md:right-2.5 bg-gradient-to-r from-purple-500 to-pink-500 text-white p-1.5 sm:p-2 rounded-full shadow hover:brightness-110 active:scale-95 transition-all duration-200 disabled:opacity-50 cursor-pointer"
             >
               <svg
