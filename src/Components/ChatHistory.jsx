@@ -186,7 +186,8 @@ const ChatHistory = () => {
         <div
           className="fixed inset-0 bg-opacity-30 z-40 sm:hidden backdrop-blur-sm"
           onClick={() => setIsOpen(false)}
-        ></div>
+        >
+        </div>
       )}
     </>
   );
