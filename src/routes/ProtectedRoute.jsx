@@ -19,7 +19,6 @@ const ProtectedRoute = ({ children }) => {
     if (!user) {
         return <Navigate to={paths.logIn} state={{ from: location }} replace />;
     }
-
     return children;
 };
 

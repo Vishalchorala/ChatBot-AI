@@ -8,5 +8,4 @@ export const paths = {
     profile: "/profile",
     forgotPassword: "/forgotPassword",
     error: "*",
-
 }
