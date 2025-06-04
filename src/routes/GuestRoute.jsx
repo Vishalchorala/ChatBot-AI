@@ -8,7 +8,7 @@ const GuestRoute = ({ children }) => {
     const [user, loading] = useAuthState(auth);
 
     if (loading) {
-        <div className='h-screen w-screen flex justify-center items-center bg-purple-3  00'>
+        <div className='h-screen w-screen flex justify-center items-center bg-purple-3'>
             <MoonLoader />;
         </div>
         return

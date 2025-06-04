@@ -57,7 +57,6 @@ const Profile = () => {
                 </button>
             </div>
 
-            {/* Confirmation Modal */}
             {showConfirm && (
                 <div className="fixed inset-3 bg-opacity-20 backdrop-blur-md flex items-center justify-center z-50 px-4">
                     <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-6 w-full max-w-xs sm:max-w-sm text-center border border-gray-200">

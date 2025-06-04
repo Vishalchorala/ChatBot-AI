@@ -6,10 +6,7 @@ import { Outlet } from "react-router-dom";
 const MainLayout = () => {
   return (
     <>
-      <Toaster
-        position="top-right"
-        reverseOrder={false}
-      />
+      <Toaster position="top-right" reverseOrder={false} />
       <ProtectedRoute>
         <Outlet />
       </ProtectedRoute>

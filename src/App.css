@@ -8,7 +8,6 @@
 }
 
 @keyframes blink {
-
     0%,
     100% {
         opacity: 0;
