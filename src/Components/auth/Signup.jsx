@@ -95,10 +95,6 @@ const SignUp = () => {
         }
     };
 
-    // const UserProfilePreview = ({ email = "", avatarUrl = "https://i.pravatar.cc/40?img=3" }) => {
-    //     const navigate = useNavigate();
-    //     const username = email.split('@')[0];
-    // }
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -125,7 +121,6 @@ const SignUp = () => {
                     {googleLoading ? 'Signing in...' : 'Sign in with Google'}
                 </button>
 
-                {/* OR Separator */}
                 <div className="flex items-center gap-2 mb-2 sm:mb-4">
                     <hr className="flex-1 border-gray-300" />
                     <span className="text-gray-400 text-xs sm:text-sm">or Sign up with Email</span>
@@ -133,7 +128,6 @@ const SignUp = () => {
                 </div>
 
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-2 sm:space-y-4">
-                    {/* Name */}
                     <div>
                         <input
                             type="text"
@@ -144,7 +138,6 @@ const SignUp = () => {
                         <p className="text-red-500 text-xs mt-1">{errors.name?.message}</p>
                     </div>
 
-                    {/* Email */}
                     <div>
                         <input
                             type="email"
@@ -155,7 +148,6 @@ const SignUp = () => {
                         <p className="text-red-500 text-xs mt-1">{errors.email?.message}</p>
                     </div>
 
-                    {/* Password */}
                     <div className="relative">
                         <input
                             type={showPassword ? 'text' : 'password'}
@@ -175,7 +167,6 @@ const SignUp = () => {
                         <p className="text-red-500 text-xs mt-1">{errors.password?.message}</p>
                     </div>
 
-                    {/* Confirm Password */}
                     <div className="relative">
                         <input
                             type={showConfirm ? 'text' : 'password'}
@@ -213,7 +204,6 @@ const SignUp = () => {
 
                 </form>
 
-                {/* Bottom Text */}
                 <p className="text-center text-sm text-gray-600 mt-3 md:mt-6">
                     Already have an account?{' '}
                     <NavLink to={paths.logIn} className="text-purple-600 font-medium hover:underline">

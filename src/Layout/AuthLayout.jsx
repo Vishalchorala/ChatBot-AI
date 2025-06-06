@@ -19,7 +19,6 @@ const AuthLayout = () => {
                         className='w-full max-w-6xl'
                     >
                         <div className='grid grid-cols-1 md:grid-cols-2 bg-white rounded-md md:rounded-2xl p-2 sm:p-10 shadow-xl'>
-                            {/* Left panel with logo and animation */}
                             <motion.div
                                 initial={{ opacity: 0, x: -50 }}
                                 animate={{ opacity: 1, x: 0 }}
