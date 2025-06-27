@@ -1,6 +1,6 @@
 # 🤖 chatBot
 
-A modern, responsive AI-powered chatbot built with React, Tailwind CSS, Firebase Authentication, and the Gemini API. Users can edit chats , and delete their chat history for a fully customizable and seamless experience.
+A modern, responsive AI-powered chatbot built with React, Tailwind CSS, Firebase Authentication, and the Gemini API. Users can edit chats, and delete their chat history for a fully customizable and seamless experience.
 
 ## 🚀 Features
 
