@@ -24,6 +24,8 @@ A modern, responsive AI-powered chatbot built with React, Tailwind CSS, Firebase
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/your-username/chatBot.git
+git clone https://github.com/Vishalchorala/ChatBot-AI.git
 cd chatBot
 npm install
+
+
