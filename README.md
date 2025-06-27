@@ -14,7 +14,7 @@ A modern, responsive AI-powered chatbot built with React, Tailwind CSS, Firebase
 
 ## 🛠️ Tech Stack
 
-- **React**
+- **React Vite**
 - **Tailwind CSS** – utility-first CSS framework
 - **Firebase** – authentication and hosting
 - **Gemini API** – generative AI responses
